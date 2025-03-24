@@ -7,7 +7,7 @@ document.getElementById('uploadForm').addEventListener('submit', async function 
     formData.append('pdfs', files[i]);
   }
 
-  const response = await fetch('https://your-n8n.com/webhook/pdf-upload', {
+  const response = await fetch('https://gauranshv.app.n8n.cloud/webhook-test/pdf-upload', {
     method: 'POST',
     body: formData
   });
